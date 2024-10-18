@@ -21,7 +21,7 @@
         }
 
         .calculator {
-            width: 300px;
+            width: 600px;  /* Wider width for landscape mode */
             background-color: #333;
             border-radius: 10px;
             padding: 20px;
@@ -41,7 +41,7 @@
 
         .buttons {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(8, 1fr);  /* More columns for horizontal layout */
             grid-gap: 10px;
             margin-top: 20px;
         }
@@ -71,7 +71,7 @@
         }
 
         button.zero {
-            grid-column: span 2;
+            grid-column: span 4;  /* Stretch the zero button to take more space */
         }
     </style>
 </head>
